@@ -7,14 +7,14 @@
 
 import Foundation
 
-public struct SubsucriptionsList: Codable {
+public struct SubscriptionsList: Codable {
     public let etag: String
-    public let items: [Subsucription]
+    public let items: [Subscription]
     public let kind: String
     public let pageInfo: PageInfo
 }
 
-public struct Subsucription: Codable {
+public struct Subscription: Codable {
     public let contentDetails: ContentDetails.SubscriptionsList?
     public let etag: String
     public let id: String
