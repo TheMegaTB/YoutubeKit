@@ -16,7 +16,7 @@ extension Statistics {
         public let likeCount: String?
         public let commentCount: String?
         public let favoriteCount: String?
-        public let viewCount: String
+        public let viewCount: String?
     }
 }
 
